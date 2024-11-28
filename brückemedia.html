@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brücke Media - Connecting Brands and Creators for Successful Collaborations">
+    <meta name="keywords" content="Brücke Media, influencer marketing, brand collaboration, media agency">
+    <meta name="author" content="Brücke Media">
+    <title>Brücke Media | Connecting Brands & Creators</title>
+    <style>
+        /* Global Styles */
+        :root {
+            --primary-color: #5a3629; /* Inspired by your logo */
+            --secondary-color: #d8c4b5; /* Elegant contrast */
+            --accent-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--accent-color);
+            background-color: var(--primary-color);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            color: var(--accent-color);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Header Section */
+        header {
+            background-color: var(--primary-color);
+            text-align: center;
+            padding: 2rem 1rem;
+            position: relative;
+            animation: fadeIn 2s ease;
+        }
+
+        header img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 1rem 0;
+            animation: slideInDown 1.5s ease-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+            animation: slideInUp 1.5s ease-out;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: var(--secondary-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 0 1rem;
+        }
+
+        /* Section Styles */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #000; /* Black placeholders */
+            border-radius: 5px;
+            margin: 1rem 0;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-placeholder:hover {
+            transform: scale(1.05);
+        }
+
+        /* Opportunities Section */
+        .opportunity-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: var(--primary-color);
+            color: var(--accent-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: slideInUp 1.5s ease;
+        }
+
+        .opportunity-box:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        /* Contact Section */
+        footer {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .contact-details {
+            margin: 1rem 0;
+        }
+
+        /* Button Style */
+        .button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--secondary-color);
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background: var(--secondary-color);
+            color: var(--primary-color);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .image-placeholder {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="logo-placeholder.png" alt="Brücke Media Logo"> <!-- Replace with your logo URL -->
+        <h1>Welcome to Brücke Media</h1>
+        <p>Connecting Brands & Creators for Seamless Collaborations</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#opportunities">Opportunities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="image-placeholder"></div>
+            <p>Brücke Media is a newly established influencer marketing agency based in Cape Town, South Africa. Our mission is to bridge the gap between brands and talented creators, ensuring impactful collaborations and results-driven campaigns.</p>
+        </section>
+
+        <section id="opportunities">
+            <h2>Opportunities</h2>
+            <div class="opportunity-box">
+                <div>
+                    <h3>For Brands</h3>
+                    <p>We provide access to creators with active and engaged audiences to amplify your brand’s reach and drive results through creative influencer campaigns.</p>
+                </div>
+                <div class="image-placeholder"></div>
+            </div>
+
+            <div class="opportunity-box">
+                <div>
+                    <h3>For Creators</h3>
+                    <p>We connect you with the right brands to help you monetize your content, grow your portfolio, and collaborate on exciting projects.</p>
+                </div>
+                <div class="image-placeholder"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to start collaborating, we’d love to hear from you!</p>
+            <div class="contact-details">
+                <p><strong>Phone:</strong> 081 430 8295</p>
+                <p><strong>Email:</strong> <a href="mailto:bruckemedia@gmail.com">bruckemedia@gmail.com</a></p>
+                <p><strong>Location:</strong> Cape Town, South Africa</p>
+            </div>
+            <a href="mailto:bruckemedia@gmail.com" class="button">Get in Touch</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Brücke Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
